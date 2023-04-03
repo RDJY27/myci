@@ -15,8 +15,7 @@
                                 <form class="user" method="post" action="<?= base_url('autentifikasi'); ?>">
                                     <div class="form-group">
                                         <input type="text" class="form-control form-control-user" value="<?=
-                                                                                                            set_value('email'); ?>" id="email" placeholder="Masukkan Alamat 
-Email" name="email">
+                                                                                                            set_value('email'); ?>" id="email" placeholder="Masukkan Alamat Email" name="email">
                                         <?= form_error(
                                             'email',
                                             '<small class="text-danger pl-3">',
@@ -31,19 +30,16 @@ Email" name="email">
                                             '</small>'
                                         ); ?>
                                     </div>
-                                    <button type="submit" class="btn 
-btn-primary btn-user btn-block">
+                                    <button type="submit" class="btn btn-primary btn-user btn-block">
                                         Masuk
                                     </button>
                                 </form>
                                 <hr>
                                 <div class="text-center">
-                                    <a class="small" href="<?=
-                                                            base_url('autentifikasi/lupaPassword'); ?>">Lupa Password?</a>
+                                    <a class="small" href="<?=base_url('autentifikasi/lupaPassword'); ?>">Lupa Password?</a>
                                 </div>
                                 <div class="text-center">
-                                    <a class="small" href="<?=
-                                                            base_url('autentifikasi/registrasi'); ?>">Daftar Member!</a>
+                                    <a class="small" href="<?=base_url('autentifikasi/registrasi'); ?>">Daftar Member!</a>
                                 </div>
                             </div>
                         </div>

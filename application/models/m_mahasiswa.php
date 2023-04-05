@@ -18,4 +18,10 @@ class m_mahasiswa extends CI_Model
         $this->db->delete($this->table);
         //DELETE FROM mahasiswa WHERE nim = $nim;
     }
+
+    function input_data($data,$table){
+		$this->db->insert($table,$data);
+	}
+
+    
 }
